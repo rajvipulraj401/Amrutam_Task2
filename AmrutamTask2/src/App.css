@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 1440px;
+  height: 639px;
+  top: 80px;
+  /* margin-top: 80px; */
+  background: linear-gradient(
+    90.17deg,
+    rgba(149, 29, 28, 1) 1.03%,
+    rgba(68, 18, 18, 0.92) 44.18%,
+    rgba(1, 1, 1, 0) 95.15%
+  );
+  /* background: rgba(149, 29, 28, 1);
+*/
+
+  left: -2px;
+  gap: 0px;
+  opacity: 0px;
+}
+main {
+  min-width: 1440px;
+  height: 6715px;
+  top: 6485px;
+  left: 38191px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: #ffffff;
+}
+.Desktop-24 {
+  width: 1440px;
+  height: 868px;
+  padding-top: 80px;
+  top: 1px;
+  gap: 0px;
+  opacity: 0px;
+  background: #fff7e2;
+  border: 1px solid black;
+}
+.headerContent {
+  width: 904px;
+  /* text-align: left; */
+  height: 370px;
+  padding: 123px 436px 146px 100px;
+  top: 203px;
+  left: 98px;
+  gap: 48px;
+  opacity: 0px;
+}
+
+button {
+  width: 305px;
+  height: 70px;
+  padding: 28px 40px 21px 40px;
+  gap: 10px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #3a643b;
+}
+.headerContent h5 {
+  font-family: Nexa Light;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+/* ----------------------Desktop 25(girl dhyan) */
+
+.Desktop-25 {
+  width: 1440px;
+  height: 849px;
+  top: 869px;
+  left: -1px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Desktop-25 .row1 {
+  width: 806px;
+  height: 164px;
+  top: 62px;
+  left: 319px;
+  gap: 24px;
+  border: 1px solid black;
+  /* position: relative; */
+}
+
+.row1 h3 {
+  font-family: DINPro-Bold;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 54px;
+  color: rgba(58, 100, 59, 1);
+  position: relative;
+  text-align: center;
+
+  /* border: 1px solid black; */
+}
+.row1 h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 5px;
+  width: 100%;
+  background: rgba(195, 208, 196, 1);
+  opacity: 0.7;
+}
+
+.row1 p {
+  font-family: DINPro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding: 24px 67.5px 0px 67.5px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.Desktop-25 .row2 {
+  border: 1px solid black;
+}
