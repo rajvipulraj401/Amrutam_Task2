@@ -1,5 +1,14 @@
 // import React from "react";
 import "./App.css";
+import Desktop19 from "./components/Desktop19";
+import Desktop20 from "./components/Desktop20";
+import Desktop21 from "./components/Desktop21";
+import Desktop22 from "./components/Desktop22";
+import Desktop23 from "./components/Desktop23";
+import Desktop24 from "./components/Desktop24";
+import Desktop25 from "./components/Desktop25";
+import Desktop26 from "./components/Desktop26";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -7,80 +16,20 @@ const App = () => {
       {/* First lets divide all of the page
     in one and then we will break the components */}
       {/* WE will start */}
-      <div className="Desktop-24">
-        <div className="header">
-          <div className="headerContent">
-            <h5> Namaste ,Welcome to Amrutam</h5>
+      <Desktop24></Desktop24>
+      <Desktop25></Desktop25>
 
-            <h2>
-              Step into Holistic Healing with Ayurveda {/*<br></br>*/} Book
-              Consultation With Certified Experts.
-            </h2>
-            <p>
-              Dive into the world of ayurveda and Experience Personalized Health
-              Solutions and {/*<br></br>*/} Holistic Guidance from Trusted
-              Ayurvedic Doctors Anytime, anywhere.
-            </p>
+      <Desktop19></Desktop19>
+      <Desktop21></Desktop21>
 
-            <button>BOOK AN APPOINTMENT</button>
-          </div>
-        </div>
-      </div>
+      <Desktop20></Desktop20>
+      <Desktop22></Desktop22>
 
-      <div className="Desktop-25">
-        <div className="row1">
-          <h3>Discover Ayurveda's magic with us</h3>
-          <p>
-            Ayurvedic treatment aims to balance your body and mind, bringing
-            harmony and vitality. It's like a journey to better health using
-            ancient wisdom, a totally effective approach for a better life.
-          </p>
-        </div>
-        <div className="row2">
-          <div className="column1">
-            <div className="wellness"></div>
-
-            <div className="prevention"></div>
-            <div className="connection"></div>
-          </div>
-
-          <div className="column2 meditationImg"></div>
-
-          <div className="column3">
-            <div className="wellness"></div>
-
-            <div className="prevention"></div>
-            <div className="connection"></div>
-          </div>
-        </div>
-      </div>
+      <Desktop23></Desktop23>
+      <Desktop26></Desktop26>
+      <Footer></Footer>
     </main>
   );
 };
 
 export default App;
-
-/*import AppName from "./components/AppName";
-import AddTodo from "./components/AddTodo";
-import TodoItem1 from "./components/Todoitem1";
-import TodoItem2 from "./components/Todoitem2";
-import "./App.css";
-
-function App() {
-  return (
-    // Yaha se sara file ko alag krte hai component wise krke .
-    <center className="todo-container">
-      <AppName />
-
-      <div className="items-container">
-        <AddTodo />
-        <TodoItem1 />
-        <TodoItem2></TodoItem2>
-      </div>
-    </center>
-  );
-  // center tag makes thing in center NOT GOOD practise as it isnot in html5.
-}
-
-export default App;
- */
