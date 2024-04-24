@@ -8,8 +8,9 @@ const Desktop24 = () => {
           <h5> Namaste ,Welcome to Amrutam</h5>
 
           <h2>
-            Step into Holistic Healing with Ayurveda {/*<br></br>*/} Book
-            Consultation With Certified Experts.
+            Step into Holistic Healing with
+            <span>{/* <u>Ayurveda</u> */} Ayurveda</span>
+            {/*<br></br>*/} Book Consultation With Certified Experts.
           </h2>
           <p>
             Dive into the world of ayurveda and Experience Personalized Health

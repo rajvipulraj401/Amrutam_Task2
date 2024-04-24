@@ -6,6 +6,8 @@ const Desktop19 = () => {
       <div className="row1">
         <h3>What sets Ayurvedic consultations apart?</h3>
       </div>
+
+      {/* ------------------------------GRID PORTION ---------------------------- */}
       <div className="container">
         <div className="item green">
           <div className="part1 ">
