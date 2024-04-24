@@ -174,11 +174,11 @@ span::after {
 .Desktop-25 {
   /* width: 1440px; */
   width: 100vw;
-  height: 849px;
+  height: 850px;
   top: 869px;
   left: -1px;
   background: rgba(255, 255, 255, 1);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -189,11 +189,8 @@ span::after {
 .Desktop-25 .row1 {
   width: 806px;
   height: 164px;
-  top: 62px;
-  left: 319px;
-  gap: 24px;
-  /* border: 1px solid black; */
-  /* position: relative; */
+  position: relative;
+  top: 30px;
 }
 
 .row1 h3 {
@@ -207,7 +204,7 @@ span::after {
 
   /* border: 1px solid black; */
 }
-.row1 h3::after {
+.uniqueEffect h3::after {
   content: "";
   position: absolute;
   left: 0;
@@ -236,6 +233,8 @@ span::after {
   /* align-items: end; */
   /* justify-content: end; */
   /* overflow-x: visible; */
+  position: relative;
+  top: 20px;
 }
 
 /* -----------------------------column 1 styling */
@@ -444,32 +443,120 @@ span::after {
 .Desktop-19 {
   background: linear-gradient(110.23deg, #fff7e2 1.25%, #fffaee 100%);
   width: 100vw;
+  height: 1000px;
+  /* padding: 50px 20px; */
+  /* padding-bottom: 100px; */
   /* width: 1440px; */
   /* overflow-x: hidden; */
 }
 
+.Desktop-19 .row1 {
+  position: relative;
+  top: 40px;
+  /* left: 400px; */
+  /* width: 48%; */
+  /* width: 900px; */
+}
+.Desktop-19 .uniqueEffect2 h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 5px;
+  width: 0%;
+  background: rgba(195, 208, 196, 1);
+  opacity: 0.7;
+  margin-left: 500px;
+  /* position: relative;
+  left: 50px; */
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto;
   gap: 10px;
+  margin: 0 50px;
+  position: relative;
+  top: 100px;
+  /* height: 80%; */
 }
+
+/* --------BELOW TEXT STYLING OF GRID LAYOUTS ------------- */
 
 .Desktop-19 .green {
-  width: 311px;
-  height: 285px;
-  /* padding: 49px 24px 49px 24px; */
-  /* gap: 10px; */
-  border-radius: 20px 0px 0px 0px;
+  /* width: 311px; */
+  /* width: auto; */
+  /* height: 285px; */
+  border-radius: 20px;
   border-top: 5px solid rgba(58, 100, 59, 1);
+  padding: 49px 24px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Adjust column sizes */
-
-.Desktop-19 h4 {
+/* ----------------STyling of texts----------------- */
+.container .black h4 {
+  font-family: DINPro-Bold;
   color: rgba(58, 100, 59, 1);
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.91px;
+  text-align: center;
+  margin-bottom: 8px;
 }
+.container .black p {
+  font-family: DINPro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.76px;
+  text-align: left;
+  color: rgba(65, 65, 65, 1);
+}
+.container .pics img {
+  /* width: 100%; */
+  width: 100%;
+  height: 100%; /* Ensure the image fills the height of the grid item */
+  object-fit: cover;
+}
+
+/* -----------item1 */
+.container .Spanning2 {
+  grid-column: 1/3;
+  /* width: auto; */
+  /* width: 80%; */
+  /* width: auto; */
+  width: 100%;
+  padding: 48px 32px 48px 32px;
+}
+/* 
+.container .pics .uniquePic img {
+  width: 120%;
+} */
+.container .Spanning2 .part1 {
+  font-family: Inknut Antiqua;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50.88px;
+  text-align: center;
+  color: rgba(58, 100, 59, 1);
+}
+.container .Spanning2 .part2 {
+  font-family: DINPro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.18px;
+  text-align: center;
+  color: rgba(58, 100, 59, 1);
+}
+/* 
+.container .SEcondRow1col {
+  width: 100%;
+} */
+/* -----------item1 ends here------- */
 
 /* -----------------------------DESKTOP 21----------------- */
 
@@ -533,10 +620,28 @@ span::after {
 }
 
 .Desktop-20 .row1 {
-  width: 800px;
+  width: 700px;
+  /* width: 40%; */
   height: 164px;
   position: relative;
   bottom: 25px;
+}
+/* .Desktop-20 .row1 h3 {
+  width: 90;
+} */
+
+.Desktop-20 .uniqueEffect3 h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 5px;
+  width: 80%;
+  background: rgba(195, 208, 196, 1);
+  opacity: 0.7;
+  margin-left: 75px;
+  /* position: relative;
+  left: 50px; */
 }
 .Desktop-20 .row2 {
   /* display: grid; */
@@ -617,6 +722,19 @@ span::after {
   font-weight: 700;
   line-height: 61.82px;
   text-align: center;
+}
+.Desktop-22 .uniqueEffect4 h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 5px;
+  width: 100%;
+  background: rgba(195, 208, 196, 1);
+  opacity: 0.7;
+  /* margin-left: 100px; */
+  /* position: relative;
+  left: 50px; */
 }
 
 .row2 {
@@ -912,6 +1030,20 @@ span::after {
   justify-content: space-between;
   position: relative;
   bottom: 10px;
+}
+
+.Desktop-23 .uniqueEffect5 h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 5px;
+  width: 100%;
+  background: rgba(195, 208, 196, 1);
+  opacity: 0.7;
+  /* margin-left: 200px; */
+  /* position: relative;
+  left: 50px; */
 }
 .row3 .smallCircle {
   width: 15px;

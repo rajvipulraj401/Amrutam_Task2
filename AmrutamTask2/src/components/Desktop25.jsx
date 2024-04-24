@@ -3,7 +3,7 @@ import React from "react";
 const Desktop25 = () => {
   return (
     <div className="Desktop-25">
-      <div className="row1">
+      <div className="row1 uniqueEffect">
         <h3>Discover Ayurveda's magic with us</h3>
         <p>
           Ayurvedic treatment aims to balance your body and mind, bringing

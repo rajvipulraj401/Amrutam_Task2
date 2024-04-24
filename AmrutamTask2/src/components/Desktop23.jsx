@@ -3,7 +3,7 @@ import React from "react";
 const Desktop23 = () => {
   return (
     <div className="Desktop-23">
-      <div className="row1">
+      <div className="row1 uniqueEffect5">
         <h3>Meet Our Ayurveda Experts!</h3>
       </div>
       {/* Row2 ......... */}

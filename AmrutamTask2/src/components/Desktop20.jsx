@@ -3,7 +3,7 @@ import React from "react";
 const Desktop20 = () => {
   return (
     <div className="Desktop-20">
-      <div className="row1">
+      <div className="row1 uniqueEffect3">
         <h3>Our Ayurvedic Approach</h3>
         <p>
           At Amrutam we follow a unique and personalized approach to healing.
