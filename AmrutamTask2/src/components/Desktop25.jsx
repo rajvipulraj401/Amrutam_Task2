@@ -8,7 +8,8 @@ const Desktop25 = () => {
         <p>
           Ayurvedic treatment aims to balance your body and mind, bringing
           harmony and vitality. It's like a journey to better health using
-          ancient wisdom, a totally effective approach for a better life.
+          ancient wisdom, <br></br>a totally effective approach for a better
+          life.
         </p>
       </div>
       <div className="row2">
@@ -57,21 +58,35 @@ const Desktop25 = () => {
 
         {/* -------------------------3 */}
         <div className="column3">
-          <div className="healing">
-            <h3>Holistic Healing</h3>
-            <p>Fix the root problem for long-lasting health.</p>
-            <img src=" protection.png" alt="" />
+          <div className="healing horizontal">
+            <div className=" imagesLast image4"></div>
+            <div className="inner inside4">
+              <h3>Holistic Healing</h3>
+              <p>
+                Fix the root problem for <br />
+                long-lasting health.
+              </p>
+            </div>
           </div>
 
-          <div className="remedies">
-            <h3>Natural Remedies</h3>
-            <p>Using herbs and natural therapies for healing..</p>
-            <img src=" ayurveda.png" alt="" />
+          <div className="remedies horizontal">
+            <div className="imagesLast image5"></div>
+            <div className="inner inside5">
+              <h3>Natural Remedies</h3>
+              <p>
+                Using herbs and natural <br />
+                therapies for healing..
+              </p>
+            </div>
           </div>
-          <div className="immunity">
-            <h3>Boosting immunity</h3>
-            <p>Stay strong and healthy for life , not just for today.</p>
-            <img src=" strong.png" alt="" />
+          <div className="immunity horizontal">
+            <div className="imagesLast image6"></div>
+            <div className="inner inside6">
+              <h3>Boosting immunity</h3>
+              <p>
+                Stay strong and healthy for life ,<br /> not just for today.
+              </p>
+            </div>
           </div>
         </div>
       </div>
