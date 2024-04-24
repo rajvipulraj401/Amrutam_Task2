@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 const Desktop22 = () => {
   return (
@@ -6,8 +7,12 @@ const Desktop22 = () => {
       <div className="row1 title1 uniqueEffect4">
         <h3>STORIES FROM OUR VALUED CUSTOMERS!</h3>
       </div>
+
       <div className="row2">
-        <div className="card 1">
+        <Card location={"Chennai"}></Card>
+        <Card location={"Mumbai"}></Card>
+        <Card location={"Chennai"}></Card>
+        {/* <div className="card 1">
           <div className="top">Consulted for Skin</div>
           <div className="content">
             <div className="info">
@@ -35,7 +40,7 @@ const Desktop22 = () => {
         </div>
         <div className="card 3">
           <div></div>
-        </div>
+        </div> */}
       </div>
       <div className="row3">
         <div className="smallCircle Default"></div>

@@ -1,4 +1,5 @@
 import React from "react";
+import ExpertCardItems from "./ExpertCardItems";
 
 const Desktop23 = () => {
   return (
@@ -12,7 +13,10 @@ const Desktop23 = () => {
           <img src="leftArrow.png" alt="" />
         </div>
 
-        <div className="Experts 1">
+        <ExpertCardItems></ExpertCardItems>
+        <ExpertCardItems></ExpertCardItems>
+        <ExpertCardItems></ExpertCardItems>
+        {/* <div className="Experts 1">
           <div className="ExpertContents">
             <div className="ExpertPic">
               <img src="ExpertPic.png" alt="" />
@@ -20,7 +24,7 @@ const Desktop23 = () => {
 
             <div className="ExpertRating">4.5 ⭐</div>
 
-            {/* -----------------initials */}
+            
 
             <div className="ExpertInitials">
               <h2>Dr. Vaishali Sharma</h2>
@@ -42,13 +46,12 @@ const Desktop23 = () => {
           <div className="greenBox">Book a session</div>
         </div>
 
-        {/* --------------------------------------------- */}
         <div className="Experts  2">
           <div></div>
         </div>
         <div className="Experts   3">
           <div></div>
-        </div>
+        </div> */}
         <div className="rightArrow">
           <img src="rightArrow.png" alt="" />
         </div>
