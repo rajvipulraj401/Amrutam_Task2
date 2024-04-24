@@ -6,7 +6,12 @@ const Desktop23 = () => {
       <div className="row1">
         <h3>Meet Our Ayurveda Experts!</h3>
       </div>
+      {/* Row2 ......... */}
       <div className="row2">
+        <div className="leftArrow">
+          <img src="leftArrow.png" alt="" />
+        </div>
+
         <div className="Experts 1">
           <div className="ExpertContents">
             <div className="ExpertPic">
@@ -44,6 +49,21 @@ const Desktop23 = () => {
         <div className="Experts   3">
           <div></div>
         </div>
+        <div className="rightArrow">
+          <img src="rightArrow.png" alt="" />
+        </div>
+      </div>
+
+      {/* ------row2 Ends */}
+      <div className="row3">
+        <div className="smallCircle Default"></div>
+        <div className="smallCircle"></div>
+        <div className="smallCircle"></div>
+      </div>
+
+      <div className="FindMore">
+        <h2> Find more experts </h2>
+        <img src="greenArrow.png" alt="" />
       </div>
     </div>
   );

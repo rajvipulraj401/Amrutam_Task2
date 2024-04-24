@@ -12,32 +12,50 @@ const Desktop25 = () => {
         </p>
       </div>
       <div className="row2">
+        {/* ------------1 */}
         <div className="column1">
-          <div className="wellness">
-            <h3>Personalized Wellness</h3>
-            <p>
-              Get treatments made just for you based on your individual doshas (
-              body type)
-            </p>
-            <img src="heartbeat.png" alt="" />
+          <div className="wellness well">
+            <div className="inside inside1">
+              <h3>Personalized Wellness</h3>
+              <p>
+                Get treatments made just for you based on your individual doshas
+                ( body type)
+              </p>
+            </div>
+            <div className="AyurvedaMagicPics image1">
+              {/* <img src="heartbeat.png" alt="" /> */}
+            </div>
           </div>
 
-          <div className="prevention">
-            <h3>Focus on prevention</h3>
-            <p>Stop problems even before they start.</p>
-            <img src=" ribbon.png" alt="" />
+          <div className="prevention well">
+            <div className="inside inside2">
+              <h3>Focus on prevention</h3>
+              <p>
+                Stop problems even <br></br>before they start.
+              </p>
+            </div>
+
+            <div className="AyurvedaMagicPics image2">
+              {/* <img src=" ribbon.png" alt="" /> */}
+            </div>
           </div>
-          <div className="connection">
-            <h3>Mind-Body Connection</h3>
-            <p>Keep your mind and body in sync for a happy life.</p>
-            <img src=" lotus-position.png" alt="" />
+          <div className="connection well">
+            <div className="inside inside3">
+              <h3>Mind-Body Connection</h3>
+              <p>Keep your mind and body in sync for a happy life.</p>
+            </div>
+            <div className="AyurvedaMagicPics image3">
+              {/* <img src=" lotus-position.png" alt="" /> */}
+            </div>
           </div>
         </div>
 
+        {/* ---------------2--- */}
         <div className="column2 meditationImg">
           <img src="  GirlYoga.png" alt="" />
         </div>
 
+        {/* -------------------------3 */}
         <div className="column3">
           <div className="healing">
             <h3>Holistic Healing</h3>

@@ -190,7 +190,120 @@ button {
 .Desktop-25 .row2 {
   border: 1px solid black;
   display: flex;
+  height: 70%;
+  /* align-items: end; */
+  /* justify-content: end; */
 }
+
+/* -----------------------------column 1 styling */
+.row2 .column1,
+.row2 .column3 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* padding: 50px; */
+  /* justify-content: start; */
+
+  text-align: center;
+  /* padding: 50px 0; */
+}
+
+.row2 .column1 div {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.row2 .column1 div .inside {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  /* padding: 10px 20px; */
+  /* padding-top: 50px; */
+  /* padding-top: 50px; */
+  /* position: relative;
+  left: 30px; */
+}
+
+.AyurvedaMagicPics {
+  /* padding-left: 20px; */
+  /* margin-right: -40px; */
+  margin-left: 60px;
+  min-width: 120px;
+  min-height: 120px;
+
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.image1 {
+  background-image: url(heartbeat.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(237, 245, 250, 1);
+  position: relative;
+  left: 20px;
+}
+.image2 {
+  background-image: url(ribbon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(234, 242, 234, 1);
+  position: relative;
+  right: 10px;
+}
+
+.image3 {
+  background-image: url(lotus-position.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(252, 241, 241, 1);
+  position: relative;
+  left: 40px;
+}
+
+.wellness .inside1 {
+  position: relative;
+  left: 50px;
+  /* top: 20px; */
+}
+
+.inside2 {
+  position: relative;
+  left: 30px;
+  /* top: 20px; */
+}
+.inside3 {
+  position: relative;
+  left: 55px;
+}
+
+.well .inside:not(.AyurvedaMagicPics) {
+  /* padding: 10px 20px; */
+  padding-left: 70px;
+}
+
+.column1 div .inside h3 {
+  font-family: DINPro-Bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.76px;
+  /* text-align: left; */
+}
+.inside p {
+  /* text-align: center; */
+
+  font-family: DINPro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.61px;
+  text-align: right;
+}
+
+/* ----------------------------------------------ROW2 COLUMN 2 */
+
+/* ----------------------------------------------------row2 Column3 */
 
 /* --------------------------------------DESKTOP 19 (grid wala) */
 
@@ -226,21 +339,23 @@ button {
 
 /* -----------------------------DESKTOP 21----------------- */
 
-.Dektop-21 {
-  /* width: 1440px; */
-  width: 100vw;
-  height: auto;
+.mantra {
+  font-family: DINPro;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: center;
 }
 .backgroundImage {
   background-image: url("AmrutamHarmony.png");
   /* width: 1440px; */
   width: 100vw;
-  height: 592px;
+  height: 700px;
   color: white;
   font-size: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 
@@ -253,6 +368,21 @@ button {
   background-repeat: no-repeat;
   background-position: center center; /* Adjust this property */
   /* overflow-x: hidden; */
+}
+.backgroundImage button {
+  width: 276 px;
+  height: 72px;
+  padding: 24px 40px 21px 40px;
+  /* gap: 10px; */
+  border-radius: 16px;
+  background: rgba(58, 100, 59, 1);
+  box-shadow: 0px 4px 20.8px 0px rgba(0, 0, 0, 0.17);
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 24px;
+
+  position: relative;
+  top: -100px;
 }
 
 /* ------------------------------------DEsktop 20 */
@@ -269,8 +399,10 @@ button {
 }
 
 .Desktop-20 .row1 {
-  width: 772px;
+  width: 800px;
   height: 164px;
+  position: relative;
+  bottom: 25px;
 }
 .Desktop-20 .row2 {
   /* display: grid; */
@@ -335,7 +467,7 @@ button {
 .Desktop-22 {
   /* width: 1440px; */
   width: 100vw;
-  height: 550px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -361,6 +493,7 @@ button {
   height: 371px;
   /* top: 215px; */
   margin-top: 25px;
+  margin-bottom: 40px;
   margin: 50px inherit;
   /* left: 106px; */
   gap: 32px;
@@ -484,12 +617,13 @@ button {
   position: relative;
   right: 25px;
 }
+
 /* ----------------------------------Desktop-23_(girl image card )___________________- */
 
 .Desktop-23 {
   /* width: 1440px; */
   width: 100vw;
-  height: 750px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -499,6 +633,10 @@ button {
 .Desktop-23 .row1 h3 {
   font-size: 50px;
   margin-bottom: 30px;
+}
+.Desktop-23 .row2 {
+  position: relative;
+  top: 50px;
 }
 .row2 .Experts {
   width: 325px;
@@ -593,6 +731,26 @@ button {
   left: 50px;
 }
 
+/* -------Arrow styoling of left and right arrow */
+.leftArrow,
+.rightArrow {
+  width: 82px;
+  height: 80px;
+  border: 1px solid rgba(188, 188, 188, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -100px;
+  right: 100px;
+}
+.rightArrow {
+  position: relative;
+  top: -100px;
+  right: -100px;
+}
+
 .greenBox {
   background: rgba(58, 100, 59, 1);
   width: inherit;
@@ -610,6 +768,56 @@ button {
   line-height: 18px;
   letter-spacing: -0.01em;
   text-align: left;
+}
+
+/* ---------row 3 DESKtop 23--- */
+.row3 {
+  width: 96px;
+  height: 9px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 10px;
+}
+.row3 .smallCircle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(195, 195, 195, 1);
+
+  gap: 0px;
+  opacity: 0px;
+}
+.row3 .Default {
+  background-color: #3a643b;
+}
+
+/* ----row 4 button */
+
+.FindMore {
+  width: 276px;
+  height: 62px;
+  padding: 0px 25px 0px 25px;
+  border-radius: 7px;
+  border: 1px solid rgba(58, 100, 59, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(219, 227, 220, 0.39);
+}
+.FindMore h2 {
+  font-family: DINPro;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(58, 100, 59, 1);
+}
+.FindMore img {
+  position: relative;
+  top: 2px;
+  left: 20px;
 }
 /* -----------------------------------Desktop-26(iphone wala)------------------------ */
 .Desktop-26 {

@@ -37,6 +37,11 @@ const Desktop22 = () => {
           <div></div>
         </div>
       </div>
+      <div className="row3">
+        <div className="smallCircle Default"></div>
+        <div className="smallCircle"></div>
+        <div className="smallCircle"></div>
+      </div>
     </div>
   );
 };
